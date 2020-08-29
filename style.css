@@ -1,0 +1,268 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Nav Section */
+#title{
+    background-image: url(images/bg_1\ rework.jpg);
+    color: white;
+}
+
+.nav-link{
+    color: white;
+    font-weight: 900;
+    margin: 7px;
+}
+
+/* Header Description*/
+.header-description{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 7%;
+}
+
+.header-description h3{
+    font-size: 3.3rem;
+    padding: 4%;
+}
+
+.header-description p{
+    font-size: 1.5rem;
+    padding-right: 90px;
+    padding-left: 90px;
+    font-weight: bold;
+}
+
+.order-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* About Section*/
+#about{
+    padding: 100px 7%;
+    line-height: 2;
+}
+
+.about-description h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about-description p{
+    padding-right: 80px;
+}
+
+.about-more{
+    text-decoration: none;
+    color: #919191;
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 2px solid #919191;
+}
+
+.about-img{
+    margin: 5px;
+}
+
+.img-reverse{
+    padding-bottom: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+/* Menu Section */
+#menu{
+    padding: 100px 7%;
+    text-align: center;
+}
+
+#menu h2{
+    margin-bottom: 60px;
+}
+
+.menu-description{
+    text-align: left;
+    padding: 0;
+}
+
+.menu-description h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu-description p{
+    line-height: 1.5;
+}
+
+.img-special{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.menu-button{
+    margin-top: 25px;
+}
+
+/* Reservation Section */
+#reservation{
+    padding: 100px 7% 150px 7%;
+    text-align: center;
+    background-image: url(images/form-background-image\ 22.jpg);
+    height: 688px;
+}
+.form-field{
+    margin: 30px;
+}
+.inner-reservation{
+    padding-top: 80px;
+}
+
+.inner-reservation h2, #blog h2, #offers h2, #our-chefs h2, #photo-feed h2{
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.inner-reservation p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+/* Testimonial Section */
+.avata-img{
+    width: 30px;
+    border-radius: 100%;
+    
+}
+
+/* Blog Section */
+#blog, #offers, #our-chefs{
+    padding: 100px 4% 150px 4%;
+    text-align: center;
+    background-color: #f5e4c1;
+}
+
+.blog-inner{
+    padding-right: 10px;
+    text-align: left;
+}
+
+.blog-inner h3{
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+/* Chef Section*/
+.chef-name{
+    text-align: center;
+}
+
+.social-icons{
+    margin-right: 10px;
+    text-align: center;
+}
+
+/* Instagram Photo Feed */
+#photo-feed{
+    text-align: center;
+    margin: 150px 0;
+}
+
+/* Footer Section */
+footer{
+    background-image: url(images/bg\ paint.jpg);
+    color: white;
+    padding: 9% 7%;
+    font-weight: bolder;
+}
+
+.about-oak, .newsletter{
+    padding-right: 50px;
+}
+
+.footer-description h4{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.newsletter p{
+    margin: 20px 0;
+}
+
+.form-area{
+    width: 70%;
+    margin-bottom: 5px;
+}
+
+
+/* Media Queries */
+@media (min-width: 300px) and (max-width: 500px){
+
+    /* Header Description*/
+    .header-description h3{
+        padding: 0;
+    }
+
+    .header-description p{
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* About Section*/
+    .about-description p{
+        padding-right: 0;
+    }
+
+    .about-images{
+        margin-top: 40px;
+    }
+
+    /* Menu Section*/
+    .menu-description p{
+        line-height: 1.5;
+        margin-bottom: 40px;
+    }
+    
+    /* Reservation Section */
+    .inner-reservation{
+        padding-top: 0;
+    }
+
+    .form-field{
+        margin: 10px;
+    }
+
+    .reserve-button{
+        margin-top: 10px;
+    }
+
+    /* Blog Section */
+    .blog-button{
+        margin-bottom: 20px;
+    }
+
+    .social-icons{
+        margin-bottom: 20px;
+    }
+
+    /* Instagram Photo Feed */
+    #photo-feed h2{
+        font-size: 2rem;
+    }
+
+    /* Footer Section */
+    .footer-description h4{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+}
